@@ -48,7 +48,6 @@ export default {
   border-radius: 5px;
   line-height: 1.5em;
   padding: 10px 16px;
-  /* width: 100%; */
   border: 1px solid transparent;
   background: rgb(215, 238, 252);
   outline: none;

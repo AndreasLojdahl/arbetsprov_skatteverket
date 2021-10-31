@@ -37,7 +37,6 @@ export default new Vuex.Store({
         let cityToScrub = await res.json();
 
         let scrubbedCity = await scrubCityForecastFromOpenWeather(cityToScrub);
-        console.log(scrubbedCity, "ScrubbedCITY");
         commit("setCityWeather", scrubbedCity);
       } else if (res.status === 404) {
         let msg = await res.json();

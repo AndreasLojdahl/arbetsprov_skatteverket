@@ -38,19 +38,16 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 100vw; */
   min-height: 100vh;
 }
 .cont {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   width: 80%;
   height: 80vh;
   background-color: rgb(110, 160, 207);
   border-radius: 10px;
   padding: 30px;
-  /* margin: auto; */
 }
 .city-search {
   margin-bottom: 20px;

@@ -1,7 +1,7 @@
 <template>
   <div class="card-container">
-    <div v-if="getCityWeather.forecastList[0].tempCelsius">
-      <span class="font-size-40">
+    <div>
+      <span class="font-size-40" v-if="getCityWeather.forecastList.length">
         {{ getCityWeather.forecastList[0].tempCelsius }}
       </span>
       ℃
@@ -156,7 +156,6 @@ export default {
   border-radius: 10px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  /* width: 60%; */
 }
 .font-size-24 {
   font-size: 24px;
