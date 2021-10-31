@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+// How I run the applikation
+
+// I use Visual Studio Code I run the with the folder path in the terminal , and start running with "npm run serve"
+// and it runs at http://localhost:8080/
